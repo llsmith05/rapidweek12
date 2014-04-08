@@ -36,13 +36,19 @@ def GetCaseImage(type, color = None):
         path = path + "blueberry/"
 
     if color == 1:
-        path = path + "one.gif"
+        path = path + "01.JPG"
     elif color == 2:
-        path = paht + "two.jpg"
+        path = path + "02.JPG"
     elif color == 3:
-        path = path + "three.jpg"
+        path = path + "03.JPG"
+    elif color == 4:
+        path = path + "04.JPG"
+    elif color == 5:
+        path = path + "05.JPG"
     else:
-        path = path + "one.gif"
+        path = path + "01.JPG"
+
+    print(path)
 
     return path
 
