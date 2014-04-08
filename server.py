@@ -24,8 +24,7 @@ def GetCaseImage(type, color = None):
     path = "images/"
     
     type = type.lower()
-    if color != None:
-        color = color.lower()
+    color = int(color)
     
     #Type
     if type == "uphone":
